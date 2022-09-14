@@ -11,11 +11,12 @@ import {
 } from "react-native";
 import ButtonApp from "./components/button/ButtonApp";
 import Screen02 from "./components/Screen02";
+import Screen03 from "./components/Screen03";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Screen02 />
+      <Screen03 />
       {/* <ButtonApp /> */}
     </View>
   );
