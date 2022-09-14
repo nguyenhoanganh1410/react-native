@@ -9,12 +9,14 @@ import {
   KeyboardAvoidingView,
   Alert,
 } from "react-native";
-import Screen01 from "./components/Screen01";
+import ButtonApp from "./components/button/ButtonApp";
+import Screen02 from "./components/Screen02";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Screen01 />
+      <Screen02 />
+      {/* <ButtonApp /> */}
     </View>
   );
 }
