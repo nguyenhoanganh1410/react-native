@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     paddingLeft: 20,
     paddingRight: 20,
-    //backgroundColor: "#FEFBF6",
+    backgroundColor: "#C2F784",
   },
   custom: {
     flexDirection: "row",

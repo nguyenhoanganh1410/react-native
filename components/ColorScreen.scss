@@ -1,0 +1,60 @@
+.container{
+    flex: 1;
+   
+}
+.viewImage{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+
+}
+.bold{
+    font-weight: 600;
+}
+.img{
+    width: 80px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 12px;
+}
+.viewImageContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+.text{
+    margin-bottom: 24px;
+}
+.groupColor{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   flex: 1;
+   
+}
+.image{
+    
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: all 0.2s;
+}
+
+.bottom{
+    background-color: #EEF1FF;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 24px;
+}
+
+.choise{
+   transform: scale(1.1);
+   transition: all 0.4s;
+}
