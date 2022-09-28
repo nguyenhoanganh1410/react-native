@@ -17,17 +17,21 @@ import ColorSCreen from "./components/ColorScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Provider from "./store/Provider";
+import ListItem from "./components/flatlist/ListItem";
 export default function App() {
   const Stack = createNativeStackNavigator();
   return (
-    <Provider>
-      <NavigationContainer>
-        <Stack.Navigator initialRouteName="HomeScreen">
-          <Stack.Screen name="HomeScreen" component={HomeScreen} />
-          <Stack.Screen name="ColorSCreen" component={ColorSCreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
-    </Provider>
+    <View style={styles.container}>
+      <ListItem />
+    </View>
+    // <Provider>
+    //   <NavigationContainer>
+    //     <Stack.Navigator initialRouteName="HomeScreen">
+    //       <Stack.Screen name="HomeScreen" component={HomeScreen} />
+    //       <Stack.Screen name="ColorSCreen" component={ColorSCreen} />
+    //     </Stack.Navigator>
+    //   </NavigationContainer>
+    // </Provider>
     // <View style={styles.container}>
     //   {/* <Screen03 /> */}
     //   {/* <ButtonApp /> */}
